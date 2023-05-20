@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int gender=sc.nextInt();
+        int age=sc.nextInt();
+        if(gender==1 && age>=60)
+        {
+            System.out.println("Senior Citizen");
+            
+        }
+        else if(gender==0 && age>=58) 
+        {
+            System.out.println("Senior Citizen");
+        }
+        else{
+            System.out.println("Not Senior Citizen");
+        }
+            
+    }
+    
+}
